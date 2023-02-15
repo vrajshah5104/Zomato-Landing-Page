@@ -342,6 +342,22 @@
     width: 40%;
 }
 
+.explore__options_heading {
+    display: flex;
+    font-weight: 450;
+    font-size: 30px;
+}
+
+.explore__options_dropdown_menus select {
+    margin-top: 20px;
+    height: 60px;
+    width: 98%;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 6.9px;
+    border-color: #cecec8;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar__menu_container .fontAwesome_user_icon {
         display: flex;
@@ -367,5 +383,24 @@
     .hero__section_title {
         font-size: 18px;
         width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .left, .right {
+        flex: 1;
+    }
+    .get__the_app .semi_container {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .get__the_app {
+        padding: 2rem 0;
+    }
+    .get__the_app .semi_container {
+        width: 95%;
+        flex-direction: column;
     }
 }
