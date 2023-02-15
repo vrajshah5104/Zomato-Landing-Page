@@ -90,7 +90,7 @@
     width: 75%;
 }
 
-.fa-solid {
+.fa-location-dot {
     font-size: 16px;
     color: tomato;
 }
@@ -140,6 +140,206 @@
 
 .we__offer_content p {
     font-size: 16px;
+}
+
+.collections h1 {
+    font-weight: 500;
+}
+
+.collections .sub__heading_container {
+    display: flex;
+    font-size: 17px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.fa-caret-right {
+    font-size: 16px;
+    color: tomato;
+}
+
+.sub__heading_container span:nth-child(2) {
+    color: #ff7e8b;
+    cursor: pointer;
+}
+
+.collections_card_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.collections_card_container .card {
+    height: 300px;
+    min-width: 240px;
+    background-size: cover;
+    background-position: cover;
+    border-radius: 10px;
+    position: relative;
+}
+
+.card1 {
+    background-image: url(./images/collection1.jpg);
+}
+
+.card2 {
+    background-image: url(./images/collection2.jpg);
+}
+
+.card3 {
+    background-image: url(./images/collection3.jpg);
+}
+
+.card4 {
+    background-image: url(./images/collection4.jpg);
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 0.05) 50%,
+        rgba(0, 0, 0, 0.05) 85%
+    );
+}
+
+.collections_card_container .card .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding: 12px 16px;
+    font-size: 1rem;
+}
+
+.content h4 {
+    letter-spacing: 0.69px;
+}
+
+.content p {
+    letter-spacing: 0.5px;
+}
+
+.radio__button_container label {
+    font-size: 16px;
+}
+
+.get__the_app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+.get__the_app .semi_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 69%;
+    gap: 1.5rem;
+}
+
+.left {
+    flex: 2;
+}
+
+.left img {
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.right {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.right h1 {
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.right p {
+    font-weight: 300;
+}
+
+.radio__button_container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.radio__button_container div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.radio__button_container input {
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239, 79, 95);
+}
+
+.input_container {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input_container input {
+    flex: auto;
+    border: 1.5px solid gray;
+    outline: none;
+    padding: 10px 12px;
+    border-radius: 5px;
+}
+
+.input_container button {
+    padding: 10px 12px;
+    border: none;
+    background-color: rgb(239, 79, 95);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.download__app_container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.download__app_container h5 {
+    color: gray;
+    outline: none;
+    font-weight: 400;
+}
+
+.download__app_container div {
+    gap: 1rem;
+    display: flex;
+}
+
+.download__app_container div img {
+    width: 40%;
 }
 
 @media only screen and (max-width: 600px) {
