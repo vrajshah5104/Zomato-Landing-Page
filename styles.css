@@ -367,7 +367,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -401,7 +401,7 @@
 .navigation_container {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: 80%;
+    width: 90%;
     margin: auto;
     gap: 1rem;
     padding: 3rem 0;
@@ -423,6 +423,65 @@
 .footer_link {
     text-decoration: none;
     color: gray;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.footer_link:hover {
+    color: black;
+}
+
+.section__links_container button {
+    border: none;
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+}
+
+.section__links_container button i {
+    color: white;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.footer__section_logo {
+    width: 69%;
+}
+
+.footer__section2_disclaimer hr {
+    width: 92%;
+    margin: auto;
+}
+
+.footer__section2_disclaimer p {
+    width: 92%;
+    margin: auto;
+    color: gray;
+    padding-top: 1.5rem;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+@media only screen and (max-width: 900px) {
+    .navigation_container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navigation_container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .navigation_container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 @media only screen and (max-width: 600px) {
